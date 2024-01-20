@@ -1,0 +1,7 @@
+1. The cost calculation step can be modified by adding check (an if statement) 
+such that if the current pair of being checked is among the inter-dependent ones, 
+use the function, F(nucleo1, nucleo2), then add this cost to the value in the cost matrix for that pair
+
+2. Yes, it is possible. for each nucleotide, we will compare with all child nodes of its parent. 
+A new score matrix will be constructed such that we have every possible combination of sequence 
+scores down(ie. if there were n child nodes per parent, there will be an n-dimennsional matrix)
